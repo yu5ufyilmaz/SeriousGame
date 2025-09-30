@@ -1,0 +1,1788 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.38f1 (82314a941f2d) revision 8532298'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 31969 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/yusuf/OneDrive/Documents/GitHub/SeriousGame
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53348
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/yusuf/OneDrive/Documents/GitHub/SeriousGame
+C:/Users/yusuf/OneDrive/Documents/GitHub/SeriousGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23440]  Target information:
+
+Player connection [23440]  * "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 727901598 [EditorId] 727901598 [Version] 1048832 [Id] WindowsEditor(7,Yusuf) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23440] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23440] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.38f1 (82314a941f2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yusuf/OneDrive/Documents/GitHub/SeriousGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003603 seconds.
+- Loaded All Assemblies, in  0.295 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.240 seconds
+Domain Reload Profiling: 534ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (106ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (241ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (206ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.647 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 1180ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (445ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (155ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 145 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6425 unused Assets / (6.7 MB). Loaded Objects now: 6979.
+Memory consumption went from 158.7 MB to 152.0 MB.
+Total: 15.415500 ms (FindLiveObjects: 1.005400 ms CreateObjectMapping: 1.150800 ms MarkObjects: 8.481800 ms  DeleteObjects: 4.776000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122193.604230 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(47c67a7d79bc0a144b115d7371da793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(47c67a7d79bc0a144b115d7371da793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72ce77c9069786f1466af3775744a124') in 0.004623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.667 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1301ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (163ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (637ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (532ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (366ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.5 MB). Loaded Objects now: 6983.
+Memory consumption went from 134.8 MB to 128.3 MB.
+Total: 13.689800 ms (FindLiveObjects: 1.102100 ms CreateObjectMapping: 1.161100 ms MarkObjects: 6.811600 ms  DeleteObjects: 4.613100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.4 MB). Loaded Objects now: 6983.
+Memory consumption went from 135.0 MB to 128.5 MB.
+Total: 13.619700 ms (FindLiveObjects: 1.115600 ms CreateObjectMapping: 1.149300 ms MarkObjects: 6.891900 ms  DeleteObjects: 4.461400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.603 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.559 seconds
+Domain Reload Profiling: 1160ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (559ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.6 MB). Loaded Objects now: 6985.
+Memory consumption went from 134.8 MB to 128.2 MB.
+Total: 13.354900 ms (FindLiveObjects: 1.058700 ms CreateObjectMapping: 1.192000 ms MarkObjects: 6.602700 ms  DeleteObjects: 4.499400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.583 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 1160ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (575ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.7 MB). Loaded Objects now: 6987.
+Memory consumption went from 134.8 MB to 128.1 MB.
+Total: 15.028800 ms (FindLiveObjects: 1.237300 ms CreateObjectMapping: 1.255900 ms MarkObjects: 7.834900 ms  DeleteObjects: 4.699200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.7 MB). Loaded Objects now: 6987.
+Memory consumption went from 135.0 MB to 128.2 MB.
+Total: 15.370900 ms (FindLiveObjects: 1.240800 ms CreateObjectMapping: 1.119600 ms MarkObjects: 8.275100 ms  DeleteObjects: 4.733600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.601 seconds
+Domain Reload Profiling: 1256ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (602ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.6 MB). Loaded Objects now: 6989.
+Memory consumption went from 134.8 MB to 128.3 MB.
+Total: 14.227700 ms (FindLiveObjects: 1.227500 ms CreateObjectMapping: 1.523800 ms MarkObjects: 6.667200 ms  DeleteObjects: 4.807600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.585 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.547 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.7 MB). Loaded Objects now: 6991.
+Memory consumption went from 134.8 MB to 128.1 MB.
+Total: 14.434700 ms (FindLiveObjects: 1.203300 ms CreateObjectMapping: 1.223100 ms MarkObjects: 7.146900 ms  DeleteObjects: 4.860000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.609 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 1177ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (474ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.5 MB). Loaded Objects now: 6993.
+Memory consumption went from 134.8 MB to 128.3 MB.
+Total: 15.544700 ms (FindLiveObjects: 1.619600 ms CreateObjectMapping: 1.157700 ms MarkObjects: 7.535700 ms  DeleteObjects: 5.229900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 355.561667 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(04e9bc8110978c34b81bce488b780d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(04e9bc8110978c34b81bce488b780d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a7136f96c4a4c84e3dc3d6875b9e3b9') in 0.0563901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.581 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 1117ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.6 MB). Loaded Objects now: 6995.
+Memory consumption went from 134.8 MB to 128.2 MB.
+Total: 15.799000 ms (FindLiveObjects: 1.352100 ms CreateObjectMapping: 1.520800 ms MarkObjects: 7.603500 ms  DeleteObjects: 5.320800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 408.580034 seconds.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(c21ae0c5b89dcce4297d2426895300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScene.unity using Guid(c21ae0c5b89dcce4297d2426895300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74d04b2083a364512495e947928e66e6') in 0.0078358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.583 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 1157ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.6 MB). Loaded Objects now: 6997.
+Memory consumption went from 134.8 MB to 128.2 MB.
+Total: 13.160800 ms (FindLiveObjects: 1.020600 ms CreateObjectMapping: 1.036900 ms MarkObjects: 6.556700 ms  DeleteObjects: 4.544800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.589 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.594 seconds
+Domain Reload Profiling: 1181ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (142ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (595ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (9.6 MB). Loaded Objects now: 6999.
+Memory consumption went from 134.8 MB to 125.1 MB.
+Total: 20.474900 ms (FindLiveObjects: 1.390000 ms CreateObjectMapping: 1.352000 ms MarkObjects: 7.140000 ms  DeleteObjects: 10.591200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 70.085311 seconds.
+  path: Assets/Scripts/QuizManager.cs
+  artifactKey: Guid(c313789de54465c41b682a2cc6e576ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuizManager.cs using Guid(c313789de54465c41b682a2cc6e576ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dba486f67f408368f13d95495fd517cc') in 0.0095314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.0 MB). Loaded Objects now: 6999.
+Memory consumption went from 134.9 MB to 128.9 MB.
+Total: 17.229400 ms (FindLiveObjects: 1.224800 ms CreateObjectMapping: 1.150100 ms MarkObjects: 8.726400 ms  DeleteObjects: 6.126400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.680 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.609 seconds
+Domain Reload Profiling: 1287ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (169ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.4 MB). Loaded Objects now: 7001.
+Memory consumption went from 134.7 MB to 128.3 MB.
+Total: 14.111100 ms (FindLiveObjects: 1.154400 ms CreateObjectMapping: 1.212500 ms MarkObjects: 7.234900 ms  DeleteObjects: 4.507500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.581 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.555 seconds
+Domain Reload Profiling: 1134ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (10.0 MB). Loaded Objects now: 7003.
+Memory consumption went from 134.8 MB to 124.7 MB.
+Total: 21.076100 ms (FindLiveObjects: 1.190900 ms CreateObjectMapping: 1.297200 ms MarkObjects: 7.025600 ms  DeleteObjects: 11.560400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.591 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.595 seconds
+Domain Reload Profiling: 1184ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (595ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.9 MB). Loaded Objects now: 7005.
+Memory consumption went from 134.8 MB to 127.8 MB.
+Total: 15.047200 ms (FindLiveObjects: 1.251100 ms CreateObjectMapping: 1.166400 ms MarkObjects: 7.343900 ms  DeleteObjects: 5.284300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.575 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.552 seconds
+Domain Reload Profiling: 1126ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.6 MB). Loaded Objects now: 7007.
+Memory consumption went from 134.8 MB to 128.2 MB.
+Total: 14.480300 ms (FindLiveObjects: 1.359100 ms CreateObjectMapping: 1.500900 ms MarkObjects: 6.960000 ms  DeleteObjects: 4.658700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (5.8 MB). Loaded Objects now: 7007.
+Memory consumption went from 134.9 MB to 129.1 MB.
+Total: 8.134200 ms (FindLiveObjects: 1.107900 ms CreateObjectMapping: 0.484900 ms MarkObjects: 4.042000 ms  DeleteObjects: 2.498600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  3.054 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.530 seconds
+Domain Reload Profiling: 3583ms
+	BeginReloadAssembly (425ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (2472ms)
+		LoadAssemblies (2650ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (530ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.5 MB). Loaded Objects now: 7009.
+Memory consumption went from 134.8 MB to 128.2 MB.
+Total: 13.916700 ms (FindLiveObjects: 1.235400 ms CreateObjectMapping: 1.285600 ms MarkObjects: 6.600400 ms  DeleteObjects: 4.793700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.626 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 1210ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.4 MB). Loaded Objects now: 7011.
+Memory consumption went from 136.6 MB to 130.2 MB.
+Total: 15.082900 ms (FindLiveObjects: 1.267500 ms CreateObjectMapping: 1.264000 ms MarkObjects: 7.938200 ms  DeleteObjects: 4.611400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.553 seconds
+Domain Reload Profiling: 1129ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.6 MB). Loaded Objects now: 7013.
+Memory consumption went from 136.7 MB to 130.1 MB.
+Total: 16.374800 ms (FindLiveObjects: 1.730400 ms CreateObjectMapping: 1.433600 ms MarkObjects: 7.865200 ms  DeleteObjects: 5.344100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.539 seconds
+Domain Reload Profiling: 1109ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (540ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.8 MB). Loaded Objects now: 7015.
+Memory consumption went from 136.7 MB to 129.9 MB.
+Total: 14.588800 ms (FindLiveObjects: 1.178500 ms CreateObjectMapping: 1.205200 ms MarkObjects: 7.107700 ms  DeleteObjects: 5.096000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.689 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1317ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (329ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (174ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (523ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.7 MB). Loaded Objects now: 7017.
+Memory consumption went from 136.7 MB to 130.0 MB.
+Total: 16.620200 ms (FindLiveObjects: 1.316600 ms CreateObjectMapping: 1.840000 ms MarkObjects: 8.456700 ms  DeleteObjects: 5.005000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.6 MB). Loaded Objects now: 7017.
+Memory consumption went from 136.9 MB to 130.3 MB.
+Total: 14.911300 ms (FindLiveObjects: 1.254200 ms CreateObjectMapping: 1.323800 ms MarkObjects: 7.746900 ms  DeleteObjects: 4.584400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.6 MB). Loaded Objects now: 7017.
+Memory consumption went from 136.9 MB to 130.3 MB.
+Total: 15.293800 ms (FindLiveObjects: 1.247100 ms CreateObjectMapping: 1.282600 ms MarkObjects: 8.215700 ms  DeleteObjects: 4.546900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.733 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.655 seconds
+Domain Reload Profiling: 1385ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (362ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (179ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (555ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.7 MB). Loaded Objects now: 7019.
+Memory consumption went from 136.7 MB to 130.0 MB.
+Total: 15.561700 ms (FindLiveObjects: 1.169600 ms CreateObjectMapping: 1.146700 ms MarkObjects: 7.418300 ms  DeleteObjects: 5.825300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.578 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.553 seconds
+Domain Reload Profiling: 1131ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (554ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.5 MB). Loaded Objects now: 7021.
+Memory consumption went from 136.7 MB to 130.2 MB.
+Total: 14.851900 ms (FindLiveObjects: 1.147800 ms CreateObjectMapping: 1.165600 ms MarkObjects: 8.099600 ms  DeleteObjects: 4.437000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.6 MB). Loaded Objects now: 7021.
+Memory consumption went from 136.8 MB to 130.2 MB.
+Total: 14.761900 ms (FindLiveObjects: 1.111700 ms CreateObjectMapping: 1.182600 ms MarkObjects: 7.226300 ms  DeleteObjects: 5.239600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.703 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.595 seconds
+Domain Reload Profiling: 1296ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (184ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (595ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.7 MB). Loaded Objects now: 7023.
+Memory consumption went from 136.7 MB to 130.0 MB.
+Total: 15.295200 ms (FindLiveObjects: 1.204900 ms CreateObjectMapping: 1.195800 ms MarkObjects: 8.255600 ms  DeleteObjects: 4.637400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.4 MB). Loaded Objects now: 7023.
+Memory consumption went from 136.9 MB to 130.5 MB.
+Total: 16.564100 ms (FindLiveObjects: 1.158400 ms CreateObjectMapping: 1.218200 ms MarkObjects: 9.387100 ms  DeleteObjects: 4.799000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (8.3 MB). Loaded Objects now: 7023.
+Memory consumption went from 136.9 MB to 128.6 MB.
+Total: 40.160600 ms (FindLiveObjects: 1.355700 ms CreateObjectMapping: 5.070300 ms MarkObjects: 24.156300 ms  DeleteObjects: 9.577100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.7 MB). Loaded Objects now: 7023.
+Memory consumption went from 136.9 MB to 130.2 MB.
+Total: 34.936100 ms (FindLiveObjects: 1.438200 ms CreateObjectMapping: 3.432100 ms MarkObjects: 25.607700 ms  DeleteObjects: 4.456000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.8 MB). Loaded Objects now: 7023.
+Memory consumption went from 136.9 MB to 130.1 MB.
+Total: 23.137800 ms (FindLiveObjects: 1.437200 ms CreateObjectMapping: 1.187400 ms MarkObjects: 10.203400 ms  DeleteObjects: 10.308200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.716 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 1311ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (178ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (596ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.5 MB). Loaded Objects now: 7025.
+Memory consumption went from 136.7 MB to 130.2 MB.
+Total: 13.763600 ms (FindLiveObjects: 1.121900 ms CreateObjectMapping: 1.050700 ms MarkObjects: 6.828900 ms  DeleteObjects: 4.760300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.6 MB). Loaded Objects now: 7025.
+Memory consumption went from 136.9 MB to 130.3 MB.
+Total: 22.906000 ms (FindLiveObjects: 1.569300 ms CreateObjectMapping: 1.226800 ms MarkObjects: 6.563100 ms  DeleteObjects: 13.545300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.606 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.519 seconds
+Domain Reload Profiling: 1123ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (7.2 MB). Loaded Objects now: 7027.
+Memory consumption went from 136.7 MB to 129.5 MB.
+Total: 15.450000 ms (FindLiveObjects: 1.057100 ms CreateObjectMapping: 1.171500 ms MarkObjects: 7.281600 ms  DeleteObjects: 5.937700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (7.0 MB). Loaded Objects now: 7027.
+Memory consumption went from 136.9 MB to 129.9 MB.
+Total: 12.508200 ms (FindLiveObjects: 1.334300 ms CreateObjectMapping: 1.393200 ms MarkObjects: 6.452100 ms  DeleteObjects: 3.327300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.594 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 1122ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (141ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.3 MB). Loaded Objects now: 7029.
+Memory consumption went from 136.7 MB to 130.4 MB.
+Total: 13.108800 ms (FindLiveObjects: 1.160500 ms CreateObjectMapping: 1.078800 ms MarkObjects: 6.999600 ms  DeleteObjects: 3.868300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6416 unused Assets / (6.8 MB). Loaded Objects now: 7029.
+Memory consumption went from 136.9 MB to 130.1 MB.
+Total: 16.630700 ms (FindLiveObjects: 1.684000 ms CreateObjectMapping: 1.307900 ms MarkObjects: 8.302800 ms  DeleteObjects: 5.334500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.680 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1311ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (162ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.7 MB). Loaded Objects now: 7031.
+Memory consumption went from 136.7 MB to 129.9 MB.
+Total: 14.998300 ms (FindLiveObjects: 1.179300 ms CreateObjectMapping: 1.192200 ms MarkObjects: 7.807200 ms  DeleteObjects: 4.817400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.593 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.589 seconds
+Domain Reload Profiling: 1181ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (590ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (489ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.5 MB). Loaded Objects now: 7033.
+Memory consumption went from 136.7 MB to 130.3 MB.
+Total: 15.526400 ms (FindLiveObjects: 1.190200 ms CreateObjectMapping: 1.303400 ms MarkObjects: 8.347600 ms  DeleteObjects: 4.683800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  3.086 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.579 seconds
+Domain Reload Profiling: 3664ms
+	BeginReloadAssembly (449ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (135ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (2464ms)
+		LoadAssemblies (2641ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (580ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (475ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.3 MB). Loaded Objects now: 7035.
+Memory consumption went from 136.7 MB to 130.4 MB.
+Total: 8.514800 ms (FindLiveObjects: 0.630400 ms CreateObjectMapping: 0.636600 ms MarkObjects: 4.363400 ms  DeleteObjects: 2.883200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.549 seconds
+Domain Reload Profiling: 1112ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (142ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.7 MB). Loaded Objects now: 7037.
+Memory consumption went from 136.7 MB to 130.0 MB.
+Total: 15.644300 ms (FindLiveObjects: 1.108800 ms CreateObjectMapping: 1.261200 ms MarkObjects: 8.013700 ms  DeleteObjects: 5.081600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.575 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (142ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6423 unused Assets / (6.8 MB). Loaded Objects now: 7039.
+Memory consumption went from 136.7 MB to 129.9 MB.
+Total: 15.592900 ms (FindLiveObjects: 1.268700 ms CreateObjectMapping: 1.507900 ms MarkObjects: 7.941000 ms  DeleteObjects: 4.873800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1024.099930 seconds.
+  path: Assets/Scenes/TestScene.unity
+  artifactKey: Guid(c21ae0c5b89dcce4297d2426895300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScene.unity using Guid(c21ae0c5b89dcce4297d2426895300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f27493f0ba155533786b067a6f931b8') in 0.2257638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
